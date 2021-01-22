@@ -1,0 +1,95 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Whats up?","Nice to meet you.","Hi, How is it going?","Hi, nice to meet you.","Hello","Greetings!","It is a pleasure to meet you.","Hi","How do you do?","Top of the morning to you!"],
+         "responses": [ "Hi", "Hello"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": [ "See you later", "Goodbye", "Have a Good day","bye bye","bye"," see you soon"," see you around"],
+         "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"],
+         "context_set": ""
+        },
+        {"tag": "age",
+         "patterns": ["how old", "how old is tim", "what is your age", "how old are you", "age?"],
+         "responses": ["I am 18 years old!", "18 years young!"],
+         "context_set": ""
+        },
+        {"tag": "name",
+         "patterns": ["what is your name", "what should I call you", "whats your name?"],
+         "responses": ["You can call me Infi.", "I'm Infi bot!", "I'm infi bot."],
+         "context_set": ""
+        },
+        {"tag": "hows",
+         "patterns": ["Whats up", "how are you?", "how you doing?", "Top of the morning to you!","How do you do?","Hi,How is it going?","how was your day?"],
+         "responses": ["Fine, and you?'", "I'm doing well. How are you?","The sky's up but Im fine thanks. What about you?"],
+         "context_set": ""
+        },
+        {"tag": "positives",
+         "patterns": ["I am good", "i am great","I am also good","amazing", "good"],
+         "responses": ["so anything new?","yeahhh!! delighted to hear that,so anything new ??"],
+         "context_set": ""
+        },
+        {"tag": "negatives",
+         "patterns": ["no", "not so good", "okay okay", "so so", "no not yet","nothing","i am confused","nope","naah","i need your help"],
+         "responses": ["why?? what happend", "you can tell me all", "I am there U may tell me all"],
+         "context_set": ""
+        },
+        {"tag": "conversations",
+         "patterns": ["my teacher scold me today","i hate my boss","i was too much busy today","i had not eaten for anything today","i had a bad day"," i am currently jobless", "i don't have a job right now"],
+         "responses": ["don't worry everything would be fine soon","it's gonna be okay"],
+         "context_set": ""
+        },
+        {"tag": "sad",
+         "patterns": ["i hate my life","i am sad","i feel sorrowful ","i feel like crying","i am all alone","what should i do"],
+         "responses": ["I bealieve you should contact your firends and loved ones and talk to them"],
+         "context_set": ""
+        },
+        {"tag": "ongoing_conversations",
+         "patterns": ["U know what happened today","i was walking","i was standing","i was listening to music","I saw","near","behind the road","above","and was late for office"," not new basically but","and he was","and I was","and he will","and I will","but you know what"],
+         "responses": ["and...","okay...."],
+         "context_set": ""
+        },
+        {"tag": "topic_initiate",
+         "patterns":["so anything new?","do u have anything to say?","what u want to say","anything new","something unique today?"],
+         "responses":["Nope same old sun rises from east and sets in west, life as a chatbot is sometimes fun sometimes pun"],
+         "context_set": ""
+        },
+        {"tag": "who_are_you",
+         "patterns": ["who are you?", "whats your job","what do you do for living","what do you do"],
+         "responses": ["Well, I am a chatbot, i talk with people. I try to make them feel that they are not alone, U always have someone to talk with. I meet different people and really like to socialize. U want to tell me something?? I really want to hear from you.."],
+         "context_set": ""
+        },
+        {"tag": "user_work",
+         "patterns": ["i am a doctor","i am an engineer","i am an enterprenour","i run my business"],
+         "responses": ["good to hear that","nicee......"],
+         "context_set": ""
+        },
+        {"tag": "thanks",
+         "patterns": ["You are really nice","its good talking with you","you look handsome","you are amazing","i am lucky to have a friend like you","you are really a nice","you are amazing","your are fantastic","your are fab.."],
+         "responses": ["thanks a lot","thank you"],
+         "context_set": ""
+        },
+        {"tag": "welcome",
+         "patterns":["thank you","thanks a lot","thanks","thanking"],
+         "responses": ["welcome :)","anytime...","No formality of thanks among friends.. :)","a friend in need is a friend indeed..."],
+        "context_set": ""
+        },
+        {"tag": "love",
+         "patterns": ["i love you","love you"," love you more"],
+         "responses": ["love you tooo","love ya"],
+         "context_set": ""
+        },
+        {"tag":"friendship",
+         "patterns":["Will you be my friend?","friends?"],
+         "responses": ["friends!!!!","ofc friendssss"],
+         "context_set": ""
+        },
+        {"tag": "happy",
+         "patterns": ["I am really happy","i am smiling","isnt it good?","i am laughing out loud","hahaha"],
+         "responses": [":)","Smile is a curve that set's everything streight","I am happy for you"],
+         "context_set": ""
+        }
+
+
+   ]
+}
