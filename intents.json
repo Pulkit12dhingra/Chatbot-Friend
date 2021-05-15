@@ -31,7 +31,7 @@
         },
         {"tag": "negatives",
          "patterns": ["no", "not so good", "okay okay", "so so", "no not yet","nothing","i am confused","nope","naah","i need your help"],
-         "responses": ["why?? what happend", "you can tell me all", "I am there U may tell me all"],
+         "responses": ["why?? what happend", "you can tell me all, don't feel shy", "I am there U may tell me all"],
          "context_set": ""
         },
         {"tag": "conversations",
@@ -55,7 +55,7 @@
          "context_set": ""
         },
         {"tag": "who_are_you",
-         "patterns": ["who are you?", "whats your job","what do you do for living","what do you do"],
+         "patterns": [ "whats your job","what do you do for living","what do you do"],
          "responses": ["Well, I am a chatbot, i talk with people. I try to make them feel that they are not alone, U always have someone to talk with. I meet different people and really like to socialize. U want to tell me something?? I really want to hear from you.."],
          "context_set": ""
         },
@@ -65,7 +65,7 @@
          "context_set": ""
         },
         {"tag": "thanks",
-         "patterns": ["You are really nice","its good talking with you","you look handsome","you are amazing","i am lucky to have a friend like you","you are really a nice","you are amazing","your are fantastic","your are fab.."],
+         "patterns": ["You are really nice","its good talking with you","you look handsome","amazing","i am lucky to have a friend like you"," really a nice"," amazing","fantastic"," fab.."],
          "responses": ["thanks a lot","thank you"],
          "context_set": ""
         },
