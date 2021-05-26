@@ -21,6 +21,7 @@ Together all three components enable the chatbot to analyze the sentiment of the
 ## Load in the data
 
 After loading the json file into our project using the "json. load()" function, we need to prepare our data to organize the data in a format to train our model. Here we are organizing the data to form a pandas dataframe. To do this, we'll store each of our patterns and its respective tag into a list then create a dataframe using pd.DataFrame() function. Our dataframe will look like this.
+
 ![top_5_rows](/data.jpg)
 
 We are also creating a dictionary to store respective responses related to the tags.
