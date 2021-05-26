@@ -16,3 +16,14 @@ The "Patterns" represents the type of text that may encounter related to the spe
 The "Response" represents the responses that the bot will give when that specific tag is encountered.
 Together all three components enable the chatbot to analyze the sentiment of the text and give an appropriate response related to it.
 
+# Data Preparation:
+After loading the json file into our project using the "json. load()" function, we need to prepare our data to organize the data in a format to train our model. Here we are organizing the data to form a pandas dataframe. To do this, we'll store each of our patterns and its respective tag into a list then create a dataframe using pd.DataFrame() function. Our dataframe will look like this.
+![top_5_rows](/data.jpg)
+
+We are also creating a dictionary to store respective responses related to the tags.
+
+Now we have our data loaded, the next step is to do some preprocessing.
+First, we'll convert all our sentences to lower case and remove all the punctuation from the sentences. 
+Since the model is trained only on integer data, we'll apply tokenization to our dataset. Tokenization is a process of assigning a word with an integer so that our sentence may be deduced in a numeric format. We'll set the max limit of these words to 2000.
+In our dataset, we have sentences of different lengths of words, so we need to apply "padding" to our dataset, which means standardize our rows to a similar length. Padding is the process of adding zeros in front of all those rows having less fewer integers(words).
+Lastly, we'll also apply label encoding to our tags as well using the sklearn preprocessing LabelEncoding() function.
