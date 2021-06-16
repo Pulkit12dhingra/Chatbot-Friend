@@ -1,5 +1,6 @@
 # Chatbot
-The project is built for people living in isolation or looking for a friend. The project uses Natural language Processing technology to interpret the user's msg and give a response. This project is benefetial for all those who want's to talk to someone and share their feelings. The chatbot is built as a web API using flask as backend. 
+Ever felt you need someone to talk with ?
+To counter those long boring nights with no one to talk with, The 3 AM friend is there for you. It is a web based chat application that is built for those who are looking for someone to goosip. Secret application of the chatbot is to reduce stress and mental pressure on those who live alone or feel isolated. I believe this project will help a lot of guys. :)
 
 ![video_description](/video.gif)
 
