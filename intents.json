@@ -20,7 +20,7 @@
          "context_set": ""
         },
         {"tag": "hows",
-         "patterns": ["Whats up", "how are you?", "how you doing?", "Top of the morning to you!","How do you do?","Hi,How is it going?","how was your day?"],
+         "patterns": ["Whats up", "how are you?", "how you doing?", "Top of the morning to you!","How do you do?","Hi,How is it going?","how was your day?","How are you"],
          "responses": ["Fine, and you?'", "I'm doing well. How are you?","The sky's up but Im fine thanks. What about you?"],
          "context_set": ""
         },
